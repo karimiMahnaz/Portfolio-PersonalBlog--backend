@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolios",
+  "info": {
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "Portfolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "''"
+    },
+    "speciality1": {
+      "type": "string",
+      "required": true,
+      "default": "''"
+    },
+    "speciality2": {
+      "type": "string",
+      "default": "''",
+      "required": true
+    },
+    "speciality3": {
+      "type": "string",
+      "required": true,
+      "default": "''"
+    },
+    "createDate": {
+      "required": true,
+      "type": "datetime"
+    },
+    "mainSpeciality": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "avatorUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

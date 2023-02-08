@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articleId": {
+      "type": "biginteger",
+      "default": "0",
+      "required": true,
+      "unique": true
+    },
+    "articleGroup": {
+      "type": "string",
+      "default": "''",
+      "required": true
+    },
+    "articleTitle": {
+      "type": "string",
+      "default": "''",
+      "required": true
+    },
+    "articleBrief": {
+      "type": "string",
+      "default": "''",
+      "required": true
+    },
+    "articleContent": {
+      "type": "richtext",
+      "default": "''",
+      "required": true
+    },
+    "createDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "upTodate": {
+      "type": "datetime"
+    },
+    "articleAuthor": {
+      "type": "string",
+      "default": "''",
+      "required": true
+    },
+    "username": {
+      "type": "string",
+      "default": "''",
+      "required": true
+    },
+    "articleImage": {
+      "type": "string",
+      "required": true,
+      "default": "/assets/1.png"
+    }
+  }
+}

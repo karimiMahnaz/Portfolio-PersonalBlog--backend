@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "to_send_emails",
+  "info": {
+    "singularName": "to-send-email",
+    "pluralName": "to-send-emails",
+    "displayName": "toSendEmail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactMessage": {
+      "type": "text"
+    },
+    "contactName": {
+      "type": "string"
+    },
+    "fromEmail": {
+      "type": "email",
+      "required": true
+    },
+    "contactId": {
+      "type": "uid",
+      "default": "0"
+    },
+    "contactDate": {
+      "type": "string",
+      "default": "''",
+      "required": true
+    }
+  }
+}

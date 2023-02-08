@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projectID": {
+      "type": "uid"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "projectType": {
+      "type": "string"
+    },
+    "technology": {
+      "type": "string"
+    },
+    "database": {
+      "type": "string"
+    },
+    "projectDescription": {
+      "type": "richtext"
+    },
+    "projectImage": {
+      "type": "string"
+    },
+    "updateTime": {
+      "type": "datetime"
+    }
+  }
+}
